@@ -43,7 +43,6 @@ Feel free to reach out to the developer for any feedback, issues, or suggestions
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-**Note:** Replace the placeholder links and information with your actual details.
 
 ## Contact Developer
 - **Name:** Md Kabir Hassan
@@ -52,4 +51,7 @@ This project is licensed under the [MIT License](LICENSE).
   - Email: ictd.kabir@gmail.com
   - Facebook: [Facebook](https://facebook.com/ictd.kabir)
   - LinkedIn: [Linkedin](https://www.linkedin.com/in/ictd-kabir/)
+
+  **Note:** Have any project in your mind, contact me!
+
 
