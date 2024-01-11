@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="40dp">
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:id="@+id/imageViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_round"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagePickAndView"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_pick"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/nameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewLayout"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background_round"
+            android:hint="@string/full_name"
+            android:padding="11dp" />
+
+        <EditText
+            android:id="@+id/admissionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameId"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background_round"
+            android:hint="@string/admission_no"
+            android:padding="11dp" />
+
+        <EditText
+            android:id="@+id/textId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/admissionId"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background_round"
+            android:hint="Description"
+            android:lines="4"
+            android:padding="11dp" />
+
+        <Button
+            android:id="@+id/submitBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textId"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_round"
+            android:backgroundTint="@color/teal_200"
+            android:text="Submit Now" />
+    </RelativeLayout>
+</RelativeLayout>
