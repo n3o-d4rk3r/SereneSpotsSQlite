@@ -3,6 +3,11 @@
 ## Description
 SereneSpotsSQLite is an Android application that allows you to manage and showcase your favorite serene places. Create a tranquil haven within your app, providing users with a soothing experience.
 
+## Review for App
+<a href="https://github.com/n3o-d4rk3r/SereneSpotsSQlite/raw/main/Screenshots/Review-video.mp4">
+  <img src="https://github.com/n3o-d4rk3r/SereneSpotsSQlite/raw/main/Screenshots/Screenshot.png" alt="Video Thumbnail" width="200" height="120">
+</a>
+
 ## Getting Started
 To use this app, follow these steps:
 
